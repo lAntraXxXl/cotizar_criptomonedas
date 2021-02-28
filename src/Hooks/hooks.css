@@ -1,0 +1,57 @@
+.SelectData{
+    position: relative;
+    list-style-type: none;
+    background-color: #FFF;
+    color: #777;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 0 0 8px 0;
+    height: 50px;
+    border-radius: 6px;
+    box-shadow: 6px 6px 12px 6px rgba(0,0,0,0.08);
+    margin: 16px 0 40px 0;
+}
+.indexPosUP{
+    z-index: 1;
+}
+.indexPosDOWN{
+    z-index: 0;
+}
+.SelectData li{
+    display: flex;
+    padding: 4px 16px;
+}
+.SelectData li img{
+    max-width: 50px;
+    margin: 0 20px 0 0 ;
+}
+.SelectData li p{
+    color: #0d2235;
+    align-self: center;
+}
+.SelectData li:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+.sel{
+    line-height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: unset;
+}
+.nonActive{
+    display: none !important;
+}
+.nonVisibleTag{
+    overflow: hidden !important;
+}
+
+.ContenedorSelect{
+    background-color: #FFF;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 3px 6px 6px 0px rgba(0,0,0,0.05);
+}
